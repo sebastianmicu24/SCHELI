@@ -13,8 +13,8 @@
 	</parent>
 
 	<groupId>com.sebastianmicu</groupId>
-	<artifactId>scheli</artifactId>
-	<version>1.0.0</version>
+	<artifactId>SCHELI</artifactId>
+	<version>1.0.0_SNAPSHOT</version>
 
 	<name>SCHELI</name>
 	<description>Segmentation and Classification of Hematoxylin Eosin Liver Images: ImageJ/Fiji plugin for segmenting and classifying H&amp;E stained images of liver tissue.</description>
