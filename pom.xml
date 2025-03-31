@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.sebastianmicu</groupId>
-	<artifactId>SCHELI</artifactId>
+	<artifactId>scheli</artifactId>
 	<version>1.0.0</version>
 
 	<name>SCHELI</name>
@@ -62,14 +62,14 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/sebastianmicu24/SCHELI.git</connection>
-		<developerConnection>scm:git:git@github.com:sebastianmicu24/SCHELI.git</developerConnection>
+		<connection>scm:git:git://github.com/sebastianmicu24/he-liver-segmentation.git</connection>
+		<developerConnection>scm:git:git@github.com:sebastianmicu24/he-liver-segmentation.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/sebastianmicu24/SCHELI</url>
+		<url>https://github.com/sebastianmicu24/he-liver-segmentation</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/sebastianmicu24/SCHELI/issues</url>
+		<url>https://github.com/sebastianmicu24/he-liver-segmentation/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
@@ -79,7 +79,7 @@
 		<main-class>segmentation.Main</main-class>
 		<license.licenseName>mit</license.licenseName>
 		<license.copyrightOwners>Cristian Sebastian Micu</license.copyrightOwners>
-		<license.projectName>SCHELI: Segmentation and Classification of Hematoxylin Eosin Liver Images</license.projectName>
+		<license.projectName>H&amp;E Liver Segmentation: ImageJ plugin for segmenting H&amp;E stained liver tissue images</license.projectName>
 		<package-name>com.sebastianmicu.scheli</package-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -155,31 +155,11 @@
 	</repositories>
 
 	<dependencies>
-		<!-- ImageJ dependencies -->
 		<dependency>
 			<groupId>net.imagej</groupId>
-			<artifactId>imagej</artifactId>
+			<artifactId>ij</artifactId>
+			<version>1.54f</version>
 		</dependency>
-		
-		<!-- User-facing commands -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-plugins-commands</artifactId>
-		</dependency>
-		
-		<!-- Run graphically with the classic ImageJ user interface -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-legacy</artifactId>
-		</dependency>
-		
-		<!-- Include all Fiji plugins when running -->
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>fiji</artifactId>
-		</dependency>
-		
-		<!-- Original dependencies -->
 		<dependency>
 			<groupId>ml.dmlc</groupId>
 			<artifactId>xgboost4j_2.12</artifactId>
@@ -190,14 +170,6 @@
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
 		</dependency>
-		
-		<!-- Test dependencies -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 </project>
-
