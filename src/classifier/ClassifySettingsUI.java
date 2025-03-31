@@ -131,7 +131,7 @@ public class ClassifySettingsUI {
 
         // Add path inputs specific to classification
         // TODO: Add ConfigKey.PATH_MODEL_FILE to ConfigVariables enum
-        addPathInput(panel, "Model File (.bin):", ConfigKey.PATH_MODEL_FILE, false); // File chooser for model
+        addPathInput(panel, "Model File (.json):", ConfigKey.PATH_MODEL_FILE, false); // File chooser for model
         addPathInput(panel, "Input CSV Directory:", ConfigKey.PATH_CSV_DATA, true);  // Directory with data to classify
         addPathInput(panel, "Output Directory:", ConfigKey.PATH_OUTPUT_DIR, true); // Directory for results CSV
         addPathInput(panel, "Class Details JSON:", ConfigKey.PATH_JSON_DATA, false); // JSON for output formatting

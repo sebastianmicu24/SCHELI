@@ -24,9 +24,9 @@ public class ConfigVariables {
         // Path settings
         PATH_CSV_DATA("he_liver_class.path_csv_data", ""),
         PATH_CLASSIFIED_CELLS("he_liver_class.path_classified_cells", ""),
-        PATH_OUTPUT_DIR("he_liver_class.path_output_dir", "C:\\Users\\sebas\\Desktop\\test\\OUTPUT\\individual"), // Added Output Dir
-        PATH_JSON_DATA("he_liver_class.path_json_data", "C:\\Users\\sebas\\Downloads\\cell_classification.json"), // Added JSON Path
-        PATH_MODEL_FILE("he_liver_class.path_model_file", ""), // Path to the saved model file (.bin) for classification
+        PATH_OUTPUT_DIR("he_liver_class.path_output_dir", ""), // Added Output Dir
+        PATH_JSON_DATA("he_liver_class.path_json_data", ""), // Added JSON Path
+        PATH_MODEL_FILE("he_liver_class.path_model_file", ""), // Path to the saved model file (.json) for classification
         // Classification/Training settings
         // NUM_CLASSES removed as requested
         TRAIN_RATIO("he_liver_class.train_ratio", 0.8f), // Added Train Ratio

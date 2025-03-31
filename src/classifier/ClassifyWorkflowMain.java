@@ -36,7 +36,7 @@ public class ClassifyWorkflowMain implements PlugIn {
         progress.showProgress();
 
         // 2. Get essential paths from configuration
-        String modelPath = ConfigVariables.getString(ConfigKey.PATH_MODEL_FILE); // Path to the .bin model
+        String modelPath = ConfigVariables.getString(ConfigKey.PATH_MODEL_FILE); // Path to the .json model
         String csvInputDir = ConfigVariables.getString(ConfigKey.PATH_CSV_DATA); // Directory with CSVs to classify
         String outputDir = ConfigVariables.getString(ConfigKey.PATH_OUTPUT_DIR); // Where results will be saved
         String jsonPathForClassDetails = ConfigVariables.getString(ConfigKey.PATH_JSON_DATA); // For class names/colors in output

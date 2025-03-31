@@ -100,7 +100,7 @@ public class TrainWorkflowMain implements PlugIn {
             DMatrix testMat = splitData[1];
 
             // 5. Train, Test, Evaluate, and Save the Model
-            // TrainModel now saves the model (.bin), features (.txt), config (.txt), weights (.properties)
+            // TrainModel now saves the model (.json), features (.txt), config (.txt), weights (.properties)
             // DataSplitter saves the label mapping (.properties)
             progress.updateStatus("Training and evaluating model...");
             Debug.log("\n--- Training, Evaluating, and Saving Model ---");
